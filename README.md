@@ -24,6 +24,14 @@ module7/
         └── upload.html          # Browser upload UI
 ```
 
+
+### To run 
+
+cd /private/tmp/module7
+func azure functionapp publish app-module7 --python
+
+
+
 The entry point stays thin and only wires feature **blueprints** into the
 `FunctionApp`; each blueprint calls the shared **service layer**, so the OCR
 logic is reusable and testable.
