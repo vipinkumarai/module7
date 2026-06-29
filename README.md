@@ -27,9 +27,10 @@ module7/
 
 ### To run 
 
+```
 cd /private/tmp/module7
 func azure functionapp publish app-module7 --python
-
+```
 
 
 The entry point stays thin and only wires feature **blueprints** into the
